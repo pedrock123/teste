@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segunda aba</title>
+</head>
+<body>
+
+    <h1>segunda aba do site</h1>
+    <p>para voltar basta <a href="Pedro.html" target="_self" rel="prev">clicar aqui</a></p>
+
+    <h3>imagens</h3>
+    <p>aqui em baixo temos uma imagem mt bacanuda</p>
+
+    <picture>
+        <source media="(max-width: 740px)" srcset="imagens/grupo-p.png" type="image/png">
+        <source media="(max-width: 1022px)" srcset="imagens/grupo-m.png" type="image/png">
+        <img src="imagens/grupo-g.png" alt="Imagem Grande">
+        <!-- Note que a tag <source> possui três atributos:
+        ‣ type vai indicar o media type da imagem que usamos(tipo de midia)
+        ‣ srcset vai configurar o nome da imagem que será carregada quando o tamanho
+        indicado for atingido
+        ‣ media indica o tamanho máximo a ser considerado para carregar a imagem
+        indicada no atributo srcset.  -->
+    </picture> <br>
+
+    <h3>Audios</h3>
+
+    <p>aqui tenho um audio</p>
+
+    <audio preload="metadata" controls>
+        <source src="musicas/musica.mp3" type="audio/mpeg">
+        <source src="musicas/musica.ogg" type="audio/ogg">
+        <source src="musicas/musica.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador nao consegue reprodusir o audio <a href="musicas/musica-z.zip" download="musicas/musica-z.rar" type="application/zip" >clique aqui para baixar o arquivo</a></p>
+
+        <!--O atributo preload indica se o áudio será pré-carregado ou não e aceita três
+        valores:
+                               1)(atributos)
+
+        ๏ metadata vai carregar apenas as informações sobre o arquivo (tamanho,
+        tempo, informações de direitos, etc)
+
+        ๏ none não vai carregar absolutamente nada até que o usuário clique no botão
+        play ou um script inicie a reprodução
+
+        ๏ auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for
+        carregada, mesmo que o usuário nunca aperte o play
+
+
+        2)(atributos da tag audio)
+
+        ‣ O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag
+        <audio>, o controle será transparente e o usuário não poderá interagir com ele.
+
+        ‣ O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que
+        a página for carregada.
+
+        ‣ O atributo loop vai fazer com que o áudio seja repetido eternamente assim que
+        terminar a sua reprodução.--> 
+    </audio>
+
+    <h3>Videos</h3>
+    
+    <p>aqui temos alguns videos muito bacanas para voce</p>
+  
+    
+
+      
+        
+</body>
+</html>

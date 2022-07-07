@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html> 
+<head><!--tag head é o cerebro do site, nada posto ou escrito nessa tag aparecera no site-->
+<meta charset="UTF-8"><!--""charset="UTF-8">"" possibilita utilizar acento-->
+
+
+
+
+<meta leng="pt-br"> <!--define a lingua do site, facilita na hora de acharem o site, e o navegador traduz para a lingua certa, caso precise-->
+
+
+
+
+<meta name="viewport content=widt=device-widt, initial-scale=10"><!--faz com q seja utilizado toda a tela do navegador-->
+
+
+<link rel="shortcut icon" href="imagens/favicon-de-nerd.ico" type="image/x-icon" /><!--icone da aba (favicon)-->
+
+<title>primeira aba</title><!--define o nome da aba -->
+
+<!--aqui temos css marcando todas as tags mark com a cor cetada ali, ele só marca os q não tem marcação individual-->
+<style> 
+mark {
+  background-color:rgb(184,72,72);
+}
+</style>
+
+</head>
+
+<body><!--parte vizual do site-->
+
+<h1>Aprendendo</h1><!--cabeçalho-->
+
+<!--<p> </p> é uma tag de paragrafo.--
+
+--<br> é uma tag q quebra o texto em algum lugar especifico, qubra de linha--
+
+&lt; = sinal de <
+&gt; = sunal de >   
+-->
+
+<p>Hoje começo a progamar em html.<br>
+Estou muito feliz!!<br>
+as tags q eu estou utilizando são &lt;p&gt;, &lt;/p&gt;<br>
+&lt;br&gt;.<br><h4>OBRIGADO PELA ATENÇAO</h4>
+</p>
+
+
+<!--para simbolos é só pesquisar na internet o codigo deles, tem muito mais doque só 9 -->
+
+ <h2><p>simbolos<br></h2>
+1) &reg;   <br> 
+2) &copy;  <br>
+3) &trade; <br>
+4) &euro;  <br> 
+5) &pound; <br>
+6) &yen;   <br>
+7) &cent;  <br>
+8) &Delta; <br>
+9) &darr;  <br>
+10) &uarr;
+</p>
+
+
+<!-- Site da emojipedia, lá tem o codigo de todos os emojis, todo emoji quando for colocado deve começar com|   &#x e terminar com ; 
+exemplo:&#x1f596;-->
+
+<h1><p>emojis</h1>
+
+&#x1f596;<br>
+&#x1f913;<br>
+&#x1f918;<br>
+&#x1f499;<br>
+
+</p>
+
+<!------------------------------------
+sites para pegar imagens sem Copyright
+
+1) https://unsplash.com/
+2)https://www.pexels.com/pt-br/
+------------------------------------>
+
+<h1><p>imgem</p></h1>
+
+<p>abaixo tem uma imagem mt bacana</p>
+
+<!------------------------------>
+
+<!--adicionando imagem ao site, atributo src é para colocar o nome q esta no arquivo.
+ouu eu posso colocar o link da imagem, tbm funciona-->
+
+<img src="imagens/css3-logo.png"  alt="logo css"> <br>
+<img src="imagens/html-logo.png" alt="logo html" />
+
+
+<!---Formatação de texto--->
+
+<h1><p>Formatação de textos</p><h1>
+  <!--sempre recomendado usar as tags semanticas em html-->
+  <h2>principais formatações</h2>
+  <br>
+  <h3>Negrito / Destaque</h3>
+  <p>Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (não semantica)</p>
+  
+  <p>E nesta frase temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; (semantica)</p>
+  
+  <br>
+  
+  <h3>italico / Ênfase</h3>
+  <p>nesta frase temos o <i> termo em itálico </i> usando a tag &lt;i&gt; (nao semantica)</p>
+  
+  
+  <p> nesta frase temos um <em> termo em ênfase </em> usando a tag &lt;em&gt; (semantica) </p>
+
+  <br>
+
+  <!--o atributo style é css, e define a cor da tag mark,(ela nao ceta a cor de todas as tags mark, só da que esta dentro--->
+  <h3>Texto Marcado</h3>
+  <p>podemos criar um <mark style="background-color:rgb(0, 255, 200);">texto marcado</mark> usando a<mark> tag</mark> &lt;mark&gt;</p>
+  <p> </p>
+  
+  <br>
+  
+  <h3>Texto Pequeno</h3>
+ 
+  <p>Estou criando um <small>texto pequeno</small></p>
+  
+  <br>
+  
+  <h3>Texto Excluido</h3>
+  <p>podemos marcar um <del> texto como excluido ,</del> que ele deve ser lido, mas não considerado</p>
+  
+  <br>
+  
+  <h3>Texto Inserido</h3>
+  <p>podemos marcar um <ins>texto inserido</ins> para dar uma ênfase e indicar q ele foi adicionado depois</p>
+  <br>
+  <h3>Texto Sobrescrito</h3>
+  <p>para inserir coisas do tipo x<sup>20</sup>+3 </p>
+  <br>
+ <h3>Texto Subcrito</h3>
+ <p>a formula da agua é H<sub>2</sub>o  </p>
+ <br>
+ 
+ 
+<!--a tag code é para voce q queira mostrar um codigo no seu site, de uma maneira q fique legível para quem esta lendo seu site.
+E a tag pre, serve para deixar os espaçamentos certos no codigo, e tbm fica muito mais facil de entender-->
+
+<h3>Codigo Fonte / Pré-Formatação</h3>
+
+ <pre>
+   <code>
+     proint(file)
+      code project=;
+      if num % 2 == 0:
+        print(f 0number two)
+   </code>
+ </pre>
+  <br>
+
+ 
+  
+  <h3>Citações</h3>
+  <p>Como diria o pai de um amigo: <q>o computador é um burro muito rapido.</q></p> <!--a tag <q> é uma tag de citação, q coloca aspas na frase--> 
+  
+ <br>
+
+  <h3>Citações Completas</h3>
+
+  <p>segundo Jeff Noble, no seu livro HTML para leigos:
+  </p>
+  
+  
+  <blockquote citi="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&dq=inauthor:%22Jeff+Noble%22&hl=pt-BR&sa=X&redir_esc=y#v=onepage&q&f=false">
+    A diferença entre elementos inline e um bloco de texto é importante. os elementos HTML nesse capitulo descrevem os blocos de texto.
+  </blockquote><!--o blockquote serve oara fazer uma citação completa, e com seu atributo citi voce facilita de acharem seu cite caso alguem procure o que esta dentro do cite-->
+  
+  <br>
+  
+  <h3>Abreviação</h3>
+  <p>estou usando <abbr title="HyperText Markup Lenguage">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p> <!--a tag abbr com o atributo title, faz com que ao passar com o mause em cima de uma abreviação, apareça oque ela é --->
+
+ <br>
+
+ <h3>Texto invertido</h3>
+ <p><bdo dir="rtl">estou aprendendo a progamar em HTML.</bdo></p><!--a tag bdo com o atributo dir pode escrever uma frase invertida, exemplo
+<bdo dir="rtl">frase bla bla</bdo-->
+  
+  
+  <h2>trabalhando com listas</h2>
+  
+
+  
+  <h3>Listas ordenadas</h3>
+  <ol type="1"><!--types: 1 A a I i -->
+     <li>Acordar</li>
+     <li>tomar café</li>
+     <li>escovar os dentes</li>
+     <li>ir a faculdade</li>
+     <li>ir pra casa</li>
+     <li>jantar</li>
+     <li>dormir</li>
+</ol>
+
+<br>
+
+
+
+<h3>lista não ordenadas</h3>
+<ul type="circle"><!--types: disc circle square -->
+  <li>Pao</li>
+  <li>leite</li>
+  <li>tomate</li>
+  <li>manteiga</li>
+  <li>feijao</li>
+</ul>
+
+<br>
+
+<h3>Juntando Listas</h3> <!--mistura entre listas ordenadas e desordenadas-->
+
+<h4>Comidas Favoritas</h4>
+
+<ol>
+
+  <li>Antigas</li>
+
+  <ul type="disc">
+     <li>pizza</li>
+    <ul type="circle">
+       <li>calabrea</li>
+       <li>chocolate</li>
+       <li>carne</li>
+     </ul>
+
+    <li>Hambúrguer</li>
+    <ul type="circle">
+      <li>vagano</li>
+      <li>carne</li>
+    </ul>
+
+     
+    <li>Strogonoff</li>
+    <ul type="circle">
+       <li>massa</li> 
+       <li>frango</li>
+       <li>carne</li>
+    </ul>
+
+    <li>Novas</li>
+    <ul type="disc">
+      <li>Batata</li>
+      <li>Massa</li>
+      <li>Carne</li>
+    </ul>
+  </ol>
+
+
+  <!--Listas de Definiçoes--> 
+
+  <h3>Listas de Definiçoes</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>linguagem de marcaçao de conteudo de um site</dd>
+    <dt>CSS</dt>
+    <dd>linguagem de marcaçao para criançao do design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>linguagem de progamaçao para a criançao de interatividade de um site</dd>
+  </dl>
+
+
+
+  <h3>Usando Links Externos</h3>
+
+<!--a tag a faz com que o link dentro de 'href' seja aberto ao clicar na frase selecionada, 'target' é para dizer se eu quero que a nova pagina seja aberta em uma nova aba ou na mesma, e a tag 'rel' serve para dizer se esse é um link e link local ou um link externo(basicamente)-->
+
+  <p>voce pode acessar meu <a href="https://github.com/pedrock123?tab=repositories" target="_blank" rel="external">repositorio publico no github</a></p> 
+
+  <p>voce tambem pode <a href="https://www.youtube.com/channel/UCjlsPNc9YR1k4ird1BXXnSw/videos" target="_blank" rel="external">acessar meu canal no youtube</a></p>
+
+
+  <p>Voce tambem pode <a href="pedro2.html" target="_self" rel="next">acessar a segunda aba do meu site</a></p>
+
+  <p>Voce tambem pode acessar a nossa <a href="noticias/pg003.html" target="_self" rel="next">pagina de noticias</a></p>
+
+
+
+  <h3>Download</h3>
+  <p>baixe o pdf <a href="aquivos download/pdf.zip" download="Pdf.zip" type="application/zip 
+">aqui</a></p>
+<!--na tag 'href' eu vou especificar onde esta o arquivo, na 'download' eu vou colocar o nome do arquivo, e na 'type' eu vou colocar o tipo de arquivo q vai ser baixado.
+
+Aqui vão alguns media types bem usados no nosso dia-a-dia:
+
+‣ application/zip
+‣ text/html
+‣ text/css
+‣ text/javascript
+‣ video/mp4
+‣ video/H264
+‣ video/JPEG
+‣ audio/aac
+‣ audio/mpeg
+‣ font/ttf
+‣ image/jpeg
+‣ image/png        -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
